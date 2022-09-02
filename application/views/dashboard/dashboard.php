@@ -2,8 +2,8 @@
     <!-- partial:partials/_navbar.html -->
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-        <a class="navbar-brand brand-logo mr-5" href="index.html"><img src="images/logo.svg" class="mr-2" alt="logo"/></a>
-        <a class="navbar-brand brand-logo-mini" href="index.html"><img src="images/logo-mini.svg" alt="logo"/></a>
+        <a class="navbar-brand brand-logo mr-5" href="index.html"><img src="<?php  echo base_url();?>/assets/images/logo.svg" class="mr-2" alt="logo"/></a>
+        <a class="navbar-brand brand-logo-mini" href="index.html"><img src="<?php  echo base_url();?>/assets/images/logo-mini.svg" alt="logo"/></a>
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
         <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
@@ -72,7 +72,7 @@
           </li>
           <li class="nav-item nav-profile dropdown">
             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
-              <img src="images/faces/face28.jpg" alt="profile"/>
+              <img src="<?php  echo base_url();?>/assets/images/faces/face28.jpg" alt="profile"/>
             </a>
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
               <a class="dropdown-item">
@@ -212,7 +212,7 @@
             </div>
             <ul class="chat-list">
               <li class="list active">
-                <div class="profile"><img src="images/faces/face1.jpg" alt="image"><span class="online"></span></div>
+                <div class="profile"><img src="<?php  echo base_url();?>/assets/images/faces/face1.jpg" alt="image"><span class="online"></span></div>
                 <div class="info">
                   <p>Thomas Douglas</p>
                   <p>Available</p>
@@ -220,7 +220,7 @@
                 <small class="text-muted my-auto">19 min</small>
               </li>
               <li class="list">
-                <div class="profile"><img src="images/faces/face2.jpg" alt="image"><span class="offline"></span></div>
+                <div class="profile"><img src="<?php  echo base_url();?>/assets/images/faces/face2.jpg" alt="image"><span class="offline"></span></div>
                 <div class="info">
                   <div class="wrapper d-flex">
                     <p>Catherine</p>
@@ -231,7 +231,7 @@
                 <small class="text-muted my-auto">23 min</small>
               </li>
               <li class="list">
-                <div class="profile"><img src="images/faces/face3.jpg" alt="image"><span class="online"></span></div>
+                <div class="profile"><img src="<?php  echo base_url();?>/assets/images/faces/face3.jpg" alt="image"><span class="online"></span></div>
                 <div class="info">
                   <p>Daniel Russell</p>
                   <p>Available</p>
@@ -239,7 +239,7 @@
                 <small class="text-muted my-auto">14 min</small>
               </li>
               <li class="list">
-                <div class="profile"><img src="images/faces/face4.jpg" alt="image"><span class="offline"></span></div>
+                <div class="profile"><img src="<?php  echo base_url();?>/assets/images/faces/face4.jpg" alt="image"><span class="offline"></span></div>
                 <div class="info">
                   <p>James Richardson</p>
                   <p>Away</p>
@@ -247,7 +247,7 @@
                 <small class="text-muted my-auto">2 min</small>
               </li>
               <li class="list">
-                <div class="profile"><img src="images/faces/face5.jpg" alt="image"><span class="online"></span></div>
+                <div class="profile"><img src="<?php  echo base_url();?>/assets/images/faces/face5.jpg" alt="image"><span class="online"></span></div>
                 <div class="info">
                   <p>Madeline Kennedy</p>
                   <p>Available</p>
@@ -255,7 +255,7 @@
                 <small class="text-muted my-auto">5 min</small>
               </li>
               <li class="list">
-                <div class="profile"><img src="images/faces/face6.jpg" alt="image"><span class="online"></span></div>
+                <div class="profile"><img src="<?php  echo base_url();?>/assets/images/faces/face6.jpg" alt="image"><span class="online"></span></div>
                 <div class="info">
                   <p>Sarah Graves</p>
                   <p>Available</p>
@@ -405,7 +405,7 @@
             <div class="col-md-6 grid-margin stretch-card">
               <div class="card tale-bg">
                 <div class="card-people mt-auto">
-                  <img src="images/dashboard/people.svg" alt="people">
+                  <img src="<?php  echo base_url();?>/assets/images/dashboard/people.svg" alt="people">
                   <div class="weather-info">
                     <div class="d-flex">
                       <div>
@@ -937,7 +937,7 @@
                   <ul class="icon-data-list">
                     <li>
                       <div class="d-flex">
-                        <img src="images/faces/face1.jpg" alt="user">
+                        <img src="<?php  echo base_url();?>/assets/images/faces/face1.jpg" alt="user">
                         <div>
                           <p class="text-info mb-1">Isabella Becker</p>
                           <p class="mb-0">Sales dashboard have been created</p>
@@ -947,7 +947,7 @@
                     </li>
                     <li>
                       <div class="d-flex">
-                        <img src="images/faces/face2.jpg" alt="user">
+                        <img src="<?php  echo base_url();?>/assets/images/faces/face2.jpg" alt="user">
                         <div>
                           <p class="text-info mb-1">Adam Warren</p>
                           <p class="mb-0">You have done a great job #TW111</p>
@@ -957,7 +957,7 @@
                     </li>
                     <li>
                       <div class="d-flex">
-                      <img src="images/faces/face3.jpg" alt="user">
+                      <img src="<?php  echo base_url();?>/assets/images/faces/face3.jpg" alt="user">
                      <div>
                       <p class="text-info mb-1">Leonard Thornton</p>
                       <p class="mb-0">Sales dashboard have been created</p>
@@ -967,7 +967,7 @@
                     </li>
                     <li>
                       <div class="d-flex">
-                        <img src="images/faces/face4.jpg" alt="user">
+                        <img src="<?php  echo base_url();?>/assets/images/faces/face4.jpg" alt="user">
                         <div>
                           <p class="text-info mb-1">George Morrison</p>
                           <p class="mb-0">Sales dashboard have been created</p>
@@ -977,7 +977,7 @@
                     </li>
                     <li>
                       <div class="d-flex">
-                        <img src="images/faces/face5.jpg" alt="user">
+                        <img src="<?php  echo base_url();?>/assets/images/faces/face5.jpg" alt="user">
                         <div>
                         <p class="text-info mb-1">Ryan Cortez</p>
                         <p class="mb-0">Herbs are fun and easy to grow.</p>
