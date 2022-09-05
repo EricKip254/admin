@@ -23,10 +23,10 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item"><a class="nav-link" href="<?php  echo base_url();?>/public/index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="<?php  echo base_url();?>/public/about.html">About</a></li>
+                            
                             <li class="nav-item"><a class="nav-link" href="<?php  echo base_url();?>/public/contact.html">Contact</a></li>
-                            <li class="nav-item"><a class="nav-link" href="<?php  echo base_url();?>/public/pricing.html">Pricing</a></li>
-                            <li class="nav-item"><a class="nav-link" href="<?php  echo base_url();?>/public/faq.html">FAQ</a></li>
+                            <li class="nav-item"><a class="nav-link" href="<?php  echo base_url();?>/public/admin.html">Admin Porta</a></li>
+                            
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="<?php  echo base_url();?>/public/#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">

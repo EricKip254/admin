@@ -12,7 +12,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="<?php  echo base_url();?>/public/https://dummyimage.com/600x400/343a40/6c757d" alt="..." /></div>
+                        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." /></div>
                     </div>
                 </div>
             </header>
@@ -56,7 +56,7 @@
                             <div class="text-center">
                                 <div class="fs-4 mb-4 fst-italic">"Working with Start Bootstrap templates has saved me tons of development time when building new projects! Starting with a Bootstrap template just makes things easier!"</div>
                                 <div class="d-flex align-items-center justify-content-center">
-                                    <img class="rounded-circle me-3" src="<?php  echo base_url();?>/public/https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
+                                    <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
                                     <div class="fw-bold">
                                         Tom Ato
                                         <span class="fw-bold text-primary mx-1">/</span>
@@ -82,7 +82,7 @@
                     <div class="row gx-5">
                         <div class="col-lg-4 mb-5">
                             <div class="card h-100 shadow border-0">
-                                <img class="card-img-top" src="<?php  echo base_url();?>/public/https://dummyimage.com/600x350/ced4da/6c757d" alt="..." />
+                                <img class="card-img-top" src="https://dummyimage.com/600x350/ced4da/6c757d" alt="..." />
                                 <div class="card-body p-4">
                                     <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
                                     <a class="text-decoration-none link-dark stretched-link" href="<?php  echo base_url();?>/public/#!"><h5 class="card-title mb-3">Blog post title</h5></a>
@@ -91,7 +91,7 @@
                                 <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
                                     <div class="d-flex align-items-end justify-content-between">
                                         <div class="d-flex align-items-center">
-                                            <img class="rounded-circle me-3" src="<?php  echo base_url();?>/public/https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
+                                            <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
                                             <div class="small">
                                                 <div class="fw-bold">Kelly Rowan</div>
                                                 <div class="text-muted">March 12, 2022 &middot; 6 min read</div>
@@ -103,7 +103,7 @@
                         </div>
                         <div class="col-lg-4 mb-5">
                             <div class="card h-100 shadow border-0">
-                                <img class="card-img-top" src="<?php  echo base_url();?>/public/https://dummyimage.com/600x350/adb5bd/495057" alt="..." />
+                                <img class="card-img-top" src="https://dummyimage.com/600x350/adb5bd/495057" alt="..." />
                                 <div class="card-body p-4">
                                     <div class="badge bg-primary bg-gradient rounded-pill mb-2">Media</div>
                                     <a class="text-decoration-none link-dark stretched-link" href="<?php  echo base_url();?>/public/#!"><h5 class="card-title mb-3">Another blog post title</h5></a>
@@ -112,7 +112,7 @@
                                 <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
                                     <div class="d-flex align-items-end justify-content-between">
                                         <div class="d-flex align-items-center">
-                                            <img class="rounded-circle me-3" src="<?php  echo base_url();?>/public/https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
+                                            <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
                                             <div class="small">
                                                 <div class="fw-bold">Josiah Barclay</div>
                                                 <div class="text-muted">March 23, 2022 &middot; 4 min read</div>
@@ -124,7 +124,7 @@
                         </div>
                         <div class="col-lg-4 mb-5">
                             <div class="card h-100 shadow border-0">
-                                <img class="card-img-top" src="<?php  echo base_url();?>/public/https://dummyimage.com/600x350/6c757d/343a40" alt="..." />
+                                <img class="card-img-top" src="https://dummyimage.com/600x350/6c757d/343a40" alt="..." />
                                 <div class="card-body p-4">
                                     <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
                                     <a class="text-decoration-none link-dark stretched-link" href="<?php  echo base_url();?>/public/#!"><h5 class="card-title mb-3">The last blog post title is a little bit longer than the others</h5></a>
@@ -133,7 +133,7 @@
                                 <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
                                     <div class="d-flex align-items-end justify-content-between">
                                         <div class="d-flex align-items-center">
-                                            <img class="rounded-circle me-3" src="<?php  echo base_url();?>/public/https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
+                                            <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
                                             <div class="small">
                                                 <div class="fw-bold">Evelyn Martinez</div>
                                                 <div class="text-muted">April 2, 2022 &middot; 10 min read</div>
