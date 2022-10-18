@@ -5,18 +5,16 @@
       Anything you want
     </div>
     <!-- Default to the left -->
-    <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
-  </footer>
+    <div class="container px-5">
+          <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+              <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Sennar Development 2022</div></div>
+          </div>
+      </div>
 </div>
 <!-- ./wrapper -->
 
 <!-- REQUIRED SCRIPTS -->
 
-<!-- jQuery -->
-<script src="<?php  echo base_url();?>/plugins/jquery/jquery.min.js"></script>
-<!-- Bootstrap 4 -->
-<script src="<?php  echo base_url();?>/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-<!-- AdminLTE App -->
-<script src="<?php  echo base_url();?>/dist/js/adminlte.min.js"></script>
+
 </body>
 </html>
