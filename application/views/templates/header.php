@@ -32,7 +32,7 @@
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item"><a class="nav-link" href="<?php  echo base_url('login');?>">Sign In</a></li>
                             
-                            <li class="nav-item"><a class="nav-link" href="<?php  echo base_url('register');?>">Register</a></li>
+                            <li class="nav-item"><a class="nav-link" href="<?php  echo base_url('signup');?>">Register</a></li>
                         </ul>
                     </div>
                 </div>
