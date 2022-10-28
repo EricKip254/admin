@@ -7,9 +7,11 @@
                         <div class="card-body p-0">
                             <div class="row ">
                                 <div class="col-lg-6 col-xl-5 py-lg-0">
+                                    
                                     <div class="p-4 p-md-5">
+
                                         
-                                        <div class="h2 fw-bolder">Sign In</div>
+                                        <div class="h2 fw-bolder"><center>Sign In</center></div>
                                         <div class="card-body">
                                             <form>
                                                 <div class="form-floating mb-3">
@@ -25,7 +27,7 @@
                                                     <label class="form-check-label" for="inputRememberPassword">Remember Password</label>
                                                 </div> -->
                                                 <div class="d-flex align-items-center text-decoration-none justify-content-between mt-4 mb-0">
-                                                    <a class="small nav-link nav-light" href="password.html">Forgot Password?</a>
+                                                    <a class="small nav-link nav-light" href="<?php echo base_url('login/recovery')?>">Forgot Password?</a>
                                                     <a class="btn btn-secondary" href="index.html">Login</a>
                                                 </div>
                                             </form>
