@@ -70,8 +70,8 @@
                             </a>
                             <div class="collapse" id="usersdropdowns" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="#"><i class="mdi mdi-circle-small"></i>Users List</a>
-                                    <a class="nav-link" href="#"><i class="mdi mdi-circle-small"></i>Add a User</a>
+                                    <a class="nav-link" href="<?php echo base_url();?>user"><i class="mdi mdi-circle-small"></i>Users List</a>
+                                    <a class="nav-link" href="<?php echo base_url();?>user/register"><i class="mdi mdi-circle-small"></i>Add a User</a>
                                 </nav>
                             </div>
                             <a class="nav-link collapsed" href="javascript: void(0);" data-bs-toggle="collapse" data-bs-target="#rolesdropdowns" aria-expanded="false" aria-controls="collapseLayouts">
@@ -99,3 +99,4 @@
             </div>
             <div id="layoutSidenav_content">
                 <main>
+                    <!-- Set flash data and sessions -->

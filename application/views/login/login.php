@@ -13,7 +13,7 @@
                                         
                                         <div class="h2 fw-bolder"><center>Sign In</center></div>
                                         <div class="card-body">
-                                            <form>
+                                            <?php echo form_open('login/login');?>
                                                 <div class="form-floating mb-3">
                                                     <input class="form-control" name="email" id="inputEmail" type="email" placeholder="name@example.com" />
                                                     <label for="inputEmail">Email address</label>
@@ -28,7 +28,7 @@
                                                 </div> -->
                                                 <div class="d-flex align-items-center text-decoration-none justify-content-between mt-4 mb-0">
                                                     <a class="small nav-link nav-light" href="<?php echo base_url('login/recovery')?>">Forgot Password?</a>
-                                                    <a class="btn btn-secondary" href="index.html">Login</a>
+                                                    <a class="btn btn-secondary" type="submit">Login</a>
                                                 </div>
                                             </form>
                                         </div>
