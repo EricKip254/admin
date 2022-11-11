@@ -11,7 +11,8 @@ class User extends CI_Controller {
         public function index()
         {
             //$data['page_title'] = 'Home Page';
-            $this->load->view('templates/dheader');
+            $this->data['records']= $this->users->lists();
+            $this->load->view('templates/dheader', $this->data);
             $this->load->view('users/list');
             $this->load->view('templates/dfooter');
         }
