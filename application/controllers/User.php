@@ -20,23 +20,14 @@ class User extends CI_Controller {
 
         // Add User Function
         public function register(){
-<<<<<<< HEAD
-=======
-            $data['title'] = 'Sign Up';
-            $this->data['roles']=$this->users->roles();
->>>>>>> 3f119e9cd074f3c147cc57946731b0be4736dca7
 
-            $this->load->view('templates/dheader', $this->data);
-            $this->load->view('users/add');
-            $this->load->view('templates/dfooter');
-
-            // $this->form_validation->set_rules('FName', 'required');
-            // $this->form_validation->set_rules('LName', 'required');
-            // $this->form_validation->set_rules('Role', 'required');
-            // $this->form_validation->set_rules('Phone', 'required|callback_check_phone_exists');
-            // $this->form_validation->set_rules('Email', 'required|callback_check_email_exists');
-            // $this->form_validation->set_rules('Password', 'Password', 'required');
-            // $this->form_validation->set_rules('Password2', 'Confirm Password', 'matches[Password]');
+            $this->form_validation->set_rules('FName', 'required');
+            $this->form_validation->set_rules('LName', 'required');
+            $this->form_validation->set_rules('Role', 'required');
+            $this->form_validation->set_rules('Phone', 'required|callback_check_phone_exists');
+            $this->form_validation->set_rules('Email', 'required|callback_check_email_exists');
+            $this->form_validation->set_rules('Password', 'Password', 'required');
+            $this->form_validation->set_rules('Password2', 'Confirm Password', 'matches[Password]');
 
             if($this->form_validation->run() === FALSE){
                 $this->data['title'] = 'Sign Up';
