@@ -34,7 +34,11 @@
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item"><a class="nav-link" href="<?php  echo base_url('login');?>">Sign In</a></li>
                             
+<<<<<<< HEAD
                             <li class="nav-item"><a class="nav-link" href="<?php  echo base_url('user/register');?>">Register</a></li>
+=======
+                            <!-- <li class="nav-item"><a class="nav-link" href="<?php  echo base_url('users/add');?>">Register</a></li> -->
+>>>>>>> 3f119e9cd074f3c147cc57946731b0be4736dca7
                         </ul>
                     </div>
                 </div>
