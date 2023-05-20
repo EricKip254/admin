@@ -33,7 +33,7 @@
                                             </form>
                                         </div>
                                         <div class="text-center py-3">
-                                            <div class="small"><a class="nav-link" href="register.html">Need an account? Sign up!</a></div>
+                                            <div class="small"><a class="nav-link" href="<?php  echo base_url('user/register');?>">Need an account? Sign up!</a></div>
                                             <div class="small"><a class="nav-link" href="<?php  echo base_url('home');?>">Return to Home page</a></div>
 
                                         </div>

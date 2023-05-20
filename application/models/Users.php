@@ -1,8 +1,26 @@
 <?php 
 class Users extends CI_Model{
 
-   
+    // Client side registration    
     public function register($enc_password){
+        //user data
+        $data = array(
+            'FName' => $this->input->post('FName'),
+            'LName' => $this->input->post('LName'),
+            'OName' => $this->input->post('OName'),
+            'Role' => 2,
+            'Email' => $this->input->post('Email'),
+            'Phone' => $this->input->post('Phone'),
+            'Password' => $enc_password,
+            'DateCreated' => $this->datetime,
+        );
+
+        //insert user data
+        return $this->db->insert('users', $data);
+    }
+
+    // Admin side registration
+    public function admin_register($enc_password){
         //user data
         $data = array(
             'FName' => $this->input->post('FName'),

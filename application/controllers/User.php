@@ -10,15 +10,16 @@ class User extends CI_Controller {
    
         public function index()
         {
-            //$data['page_title'] = 'Home Page';
+            $this->data['page_title'] = 'Home Page';
             $this->data['records']= $this->users->lists();
             $this->load->view('templates/dheader', $this->data);
             $this->load->view('users/list');
             $this->load->view('templates/dfooter');
         }
 
+
+        // Add User Function
         public function register(){
-            // $data['title'] = 'Sign Up';
 
             $this->form_validation->set_rules('FName', 'required');
             $this->form_validation->set_rules('LName', 'required');
@@ -29,21 +30,17 @@ class User extends CI_Controller {
             $this->form_validation->set_rules('Password2', 'Confirm Password', 'matches[Password]');
 
             if($this->form_validation->run() === FALSE){
-                
+                $this->data['title'] = 'Sign Up';
                 $this->data['roles']=$this->users->roles();
 
-                $this->load->view('templates/dheader', $this->data);
+                $this->load->view('templates/header', $this->data);
                 $this->load->view('users/add');
-                $this->load->view('templates/dfooter');
+                $this->load->view('templates/footer');
             }else{
                 //encrypting password
                 $enc_password = md5($this->input->post('Password'));
                 $this->users->register($enc_password);
                 redirect('user');
-
-                //user message
-                //$this->session->set_flashdata('user_registered', 'You are now registered and can log in');
-                //redirect('users');
 
             }
         }

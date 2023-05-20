@@ -5,11 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="Commerce Platform" />
         <meta name="author" content="Sennar Development" />
-        <title>Home</title>
+        <title><?php echo $title; ?></title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="<?php  echo base_url();?>/public/assets/favicon.ico" />
         <!-- Bootstrap icons-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">        <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
         <link href="<?php  echo base_url();?>/public/css/styles.css" rel="stylesheet" />
     </head>
     
@@ -33,7 +34,7 @@
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item"><a class="nav-link" href="<?php  echo base_url('login');?>">Sign In</a></li>
                             
-                            <li class="nav-item"><a class="nav-link" href="<?php  echo base_url('signup');?>">Register</a></li>
+                            <li class="nav-item"><a class="nav-link" href="<?php  echo base_url('user/register');?>">Register</a></li>
                         </ul>
                     </div>
                 </div>
